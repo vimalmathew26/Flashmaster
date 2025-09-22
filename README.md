@@ -1,6 +1,4 @@
-Here’s a complete `README.md` you can drop at the repository root.
 
-````markdown
 # FlashMaster
 
 FlashMaster is a local-first flashcard app written in Rust with a lightweight spaced-repetition scheduler (SM-2-lite), a pleasant TUI, a simple CLI, and an optional HTTP API. Storage backends include JSON (default) and SQLite.
@@ -302,11 +300,4 @@ flashmaster/
 * **Port already in use**: when starting the API, change `--addr` or free the port.
 * **Terminal issues**: if the TUI leaves the terminal in an odd state after a crash, run `reset` (Linux/macOS) or close/reopen the terminal (Windows).
 
----
 
-## License
-
-MIT. See [LICENSE](./LICENSE) for details.
-
-```
-```
