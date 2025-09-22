@@ -3,8 +3,6 @@
 
 FlashMaster is a local-first flashcard app written in Rust with a lightweight spaced-repetition scheduler (SM-2-lite), a pleasant TUI, a simple CLI, and an optional HTTP API. Storage backends include JSON (default) and SQLite.
 
-> Quality over speed. The code is structured as a small workspace with clear boundaries between domain logic and persistence.
-
 ---
 
 ## Contents
