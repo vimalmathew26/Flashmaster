@@ -1,0 +1,9 @@
+[workspace]
+members = [
+  "flashmaster-core",
+  "flashmaster-json",
+  "flashmaster-sqlite",
+  "flashmaster-pg",
+  "flashmaster-app",
+]
+resolver = "2"

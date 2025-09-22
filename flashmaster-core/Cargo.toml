@@ -1,0 +1,20 @@
+[package]
+name = "flashmaster-core"
+version = "0.1.0"
+edition = "2021"
+license = "MIT OR Apache-2.0"
+description = "Core domain, scheduler, filters, stats, and in-memory repo for FlashMaster."
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+chrono = { version = "0.4", features = ["serde", "clock"] }
+uuid = { version = "1", features = ["serde", "v4"] }
+thiserror = "1"
+async-trait = "0.1"
+parking_lot = "0.12"
+
+[dev-dependencies]
+serde_json = "1"
+chrono = { version = "0.4", features = ["serde", "clock"] }
+uuid = { version = "1", features = ["serde", "v4"] }

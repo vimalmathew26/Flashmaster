@@ -1,0 +1,19 @@
+# Cargo
+/target
+**/*.rs.bk
+Cargo.lock
+
+# IDEs
+.vscode/
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# App data / output
+*.sqlite3
+*.db
+*.log
+/.env
